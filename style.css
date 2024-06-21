@@ -1,0 +1,192 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+  
+  /* CSS personalizado para estilizar a barra de rolagem */
+  /* Para navegadores baseados em Webkit (Chrome, Safari, etc.) */
+  ::-webkit-scrollbar {
+    width: 8px; /* Largura da barra de rolagem */
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: #292828; /* Cor de fundo da área de rastreamento da barra de rolagem */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #e6e1e1; /* Cor da barra de rolagem */
+    border-radius: 6px; /* Raio da borda da barra de rolagem */
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Cor da barra de rolagem ao passar o mouse */
+  }
+
+
+.rodape{
+  height: 300px;
+}
+@media (width < 500px){
+  
+  .links{
+    width: 50%;
+    margin-right: 100px;
+    background-color: #af2c2c;
+    font-size: 8px;
+    margin-top: 5px;
+display: block;
+
+
+  }
+  .nome {
+    margin-left: 2px;
+  }
+  #Home{
+    width: 100%;
+    
+  }
+  .container-xl{
+    height: 970px;
+  }
+#Projetos{
+  width: 100%;
+  grid-template-columns: 1fr;
+  
+}
+.card_projeto{
+  width: 500px;
+ flex-direction: column;
+}
+.sobre_projeto{
+  font-size: 12px;
+}
+
+#Tecnologias{
+  width: 100%;
+}
+#Contato{
+  width: 100%;
+}
+.rodape{
+  width: 100%;
+}
+ #conteudo h1{
+    font-size: 50px;
+    width: 500px;
+  }
+ 
+  #conteudo h2{
+    text-align: center;
+  }
+ .sobre{
+  flex-direction: column;
+ height: 130%;
+ width: 100%;
+
+ }
+ .card-sobre{
+  width: 470px;
+  height: 770px;
+  font-size: 22px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  margin-top: 60px;
+ }
+ .foto{
+  width: 400px;
+  height: 400px;
+  margin-left: 5px;
+  margin-bottom: 140px;
+ }
+ h5{
+  width: 140%;
+  
+ }
+ .card{
+  margin-top: 40px;
+ }
+
+ .linguagens{
+  width: 900px;
+  height: 400px;
+ }
+ 
+ .nomes{
+  margin-left: 70px;
+ }
+ .linguas{
+  margin-left: 34px;
+  justify-content: flex-start;
+ }
+ .linguagens i{
+  font-size: 80px;
+ }
+ .patente{
+  background-color: red;
+  margin-left: 2px;
+ }
+ .nivel{
+  margin-left: 120px;
+  background-color: #555;
+  width: 100%;
+ }
+ .formulario{
+ width: 90%;
+ height: 600px;
+ align-items: flex-start
+
+ }
+.email{
+  margin-left: 30px;
+}
+.telefone{
+  margin-left: 30px;
+}
+.mensagem{
+  margin-left: 30px;
+}
+.frase{
+  width: 400px;
+  height: 150px;
+}
+
+
+}
+.links a{
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+#conteudo h2{
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+.nome h1{
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.container-xl, .sobre, .projeto,.tecnologias, .contato, .rodape {
+  background: linear-gradient(to right, #0e0c3d,  rgb(31, 31, 31) 100%);
+  animation: fundo-animado 10s linear infinite;
+}
+.projeto{
+  height: 200vh;
+}
+
+
+/* Animação de gradiente */
+@keyframes fundo-animado {
+  0% {
+    background: linear-gradient(to right, rgb(31, 31, 31) 0%, (#0e0c3d 100%));
+  }
+  50% {
+    background: linear-gradient(to right, #0e0c3d 0%, rgb(31, 31, 31));
+  }
+  100% {
+    background: linear-gradient(to right, rgb(31, 31, 31) 0%, (#0e0c3d 100%));
+  }
+}
+
